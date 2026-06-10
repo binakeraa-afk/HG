@@ -1,0 +1,22 @@
+# Évite d'embarquer des fichiers inutiles/sensibles dans l'image.
+.git
+.gitignore
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.sqlite
+*.sqlite3
+downloads/
+.mypy_cache
+.pytest_cache
+.ruff_cache
+*.log
+README.md
